@@ -31,7 +31,7 @@ I am a first year UG student at IIT(ISM) Dhanbad. I am pursuing various AI cours
 - Deep Learning
 - Computer Vision
 - Natural Language Processing
--  Voice Recognition
+- Voice Recognition
 
 
 
