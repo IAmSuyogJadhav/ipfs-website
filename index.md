@@ -1,4 +1,4 @@
-## Welcome IAmSuyogJadhav's official page!
+## Welcome to IAmSuyogJadhav's official page!
 
 I will list my projects over here, along with ideas for new projects.
 
@@ -35,16 +35,5 @@ I am learning/skilled at
 
 
 
-**Connect with me on** and _Italic_ and `Code` text
+**Connect with me on** 
 [Linkedin](https://www.linkedin.com/in/suyog-jadhav-43313041/) and [Facebook](https://www.facebook.com/suyog.jadhav3)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IAmSuyogJadhav/iamsuyogjadhav.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
