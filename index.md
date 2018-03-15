@@ -1,4 +1,4 @@
-## Welcome to IAmSuyogJadhav's official page!
+## Welcome to my official page!
 
 I will list my projects over here, along with ideas for new projects.
 
@@ -8,25 +8,25 @@ I will list my projects over here, along with ideas for new projects.
 
 I am a first year UG student at IIT(ISM) Dhanbad. I am pursuing various AI courses and will be doing projects based on the same.
 
-I have completed
+#### I have completed
 - Machine Learning by Stanford, Coursera
 - Intro to Deep Learning by National Research University, Coursera
 
-I have learnt
+#### I have learnt
 - Python(2/3)
 - C++
 - Matlab/GNU Octave
 - C
 - HTML/CSS
 
-I can work with
+#### I can work with
 - TensorFlow
 - Keras
 - Numpy
 - Pandas
 - Matplotlib
 
-I am learning/skilled at
+#### I am learning/skilled at
 - Machine Learning
 - Deep Learning
 - Computer Vision
@@ -35,5 +35,5 @@ I am learning/skilled at
 
 
 
-**Connect with me on** 
+#### Connect with me on
 [Linkedin](https://www.linkedin.com/in/suyog-jadhav-43313041/) and [Facebook](https://www.facebook.com/suyog.jadhav3)
