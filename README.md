@@ -1,29 +1,42 @@
-## Welcome to GitHub Pages
+## Welcome IAmSuyogJadhav's official page!
 
-You can use the [editor on GitHub](https://github.com/IAmSuyogJadhav/iamsuyogjadhav.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I will list my projects over here, along with ideas for new projects.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### About Me
 
-### Markdown
+![Image](https://avatars1.githubusercontent.com/u/30121918?s=460&v=4)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I am a first year UG student at IIT(ISM) Dhanbad. I am pursuing various AI courses and will be doing projects based on the same.
 
-```markdown
-Syntax highlighted code block
+I have completed
+- Machine Learning by Stanford, Coursera
+- Intro to Deep Learning by National Research University, Coursera
 
-# Header 1
-## Header 2
-### Header 3
+I have learnt
+- Python(2/3)
+- C++
+- Matlab/GNU Octave
+- C
+- HTML/CSS
 
-- Bulleted
-- List
+I can work with
+- TensorFlow
+- Keras
+- Numpy
+- Pandas
+- Matplotlib
 
-1. Numbered
-2. List
+I am learning/skilled at
+- Machine Learning
+- Deep Learning
+- Computer Vision
+- Natural Language Processing
+-  Voice Recognition
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+
+**Connect with me on** and _Italic_ and `Code` text
+[Linkedin](https://www.linkedin.com/in/suyog-jadhav-43313041/) and [Facebook](https://www.facebook.com/suyog.jadhav3)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
