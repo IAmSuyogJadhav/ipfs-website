@@ -1,4 +1,3 @@
-<title>Anon's Den</title>
 ## Welcome to IAmSuyogJadhav's official page!
 
 I will list my projects over here, along with ideas for new projects.
