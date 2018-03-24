@@ -45,4 +45,4 @@ I am a first year UG student at IIT(ISM) Dhanbad. I am pursuing various AI cours
 
 
 #### Connect with me on
-[Linkedin](https://www.linkedin.com/in/suyog-jadhav-43313041/), [Facebook](https://www.facebook.com/suyog.jadhav3) and [Twitter]()
+[Linkedin](https://www.linkedin.com/in/suyog-jadhav-43313041/), [Facebook](https://www.facebook.com/suyog.jadhav3) and [Twitter](https://twitter.com/Suyog1Jadhav)
