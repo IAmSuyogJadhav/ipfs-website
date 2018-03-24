@@ -1,6 +1,15 @@
-## Welcome to my official page!
+# Welcome to my official page!
 
 I will list my projects over here, along with ideas for new projects.
+
+## Projects
+- #### Completed  
+  * [Customizable Neural Network in Python _from scratch_ ](https://github.com/IAmSuyogJadhav/Neural-Network-in-Python-using-Numpy)
+
+- #### In Progress
+  * [Emotion Recognition](https://github.com/IAmSuyogJadhav/Emotion-Recognition)
+  * [Devanagari Number Recognition](https://github.com/IAmSuyogJadhav/Devanagari-Number-Recognition)
+  * [Solved Exercises from Advanced Machine Learning specialization, Coursera](https://github.com/IAmSuyogJadhav/AML-Specialization-Exercises-Coursera)
 
 ### About Me
 
@@ -36,4 +45,4 @@ I am a first year UG student at IIT(ISM) Dhanbad. I am pursuing various AI cours
 
 
 #### Connect with me on
-[Linkedin](https://www.linkedin.com/in/suyog-jadhav-43313041/) and [Facebook](https://www.facebook.com/suyog.jadhav3)
+[Linkedin](https://www.linkedin.com/in/suyog-jadhav-43313041/), [Facebook](https://www.facebook.com/suyog.jadhav3) and [Twitter]()
