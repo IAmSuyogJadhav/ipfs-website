@@ -2,8 +2,8 @@
 
 I will list my projects over here, along with ideas for new projects.
 
-## Projects
-- #### Completed  
+## Projects 
+- #### Completed
   * [Customizable Neural Network in Python _from scratch_ ](https://github.com/IAmSuyogJadhav/Neural-Network-in-Python-using-Numpy)
 
 - #### In Progress
@@ -45,4 +45,4 @@ I am a first year UG student at IIT(ISM) Dhanbad. I am pursuing various AI cours
 
 
 #### Connect with me on
-[Linkedin](https://www.linkedin.com/in/suyog-jadhav-43313041/), [Facebook](https://www.facebook.com/suyog.jadhav3) and [Twitter](https://twitter.com/Suyog1Jadhav)
+[Linkedin](https://www.linkedin.com/in/suyog-jadhav-43313041/), [Facebook](https://www.facebook.com/suyog.jadhav3) and [Twitter](https://www.twitter.com/IAmSuyogJadhav)
