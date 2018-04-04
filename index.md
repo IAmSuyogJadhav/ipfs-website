@@ -11,8 +11,6 @@ I will list my projects over here, along with ideas for new projects.
   * [Devanagari Number Recognition](https://github.com/IAmSuyogJadhav/Devanagari-Number-Recognition)
   * [Solved Exercises from Advanced Machine Learning specialization, Coursera](https://github.com/IAmSuyogJadhav/AML-Specialization-Exercises-Coursera)
 
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="iamsuyogjadhav"><a class="LI-simple-link" href='https://in.linkedin.com/in/iamsuyogjadhav?trk=profile-badge'>Suyog Jadhav</a></div>
 ### About Me
 
 ![Image](https://avatars1.githubusercontent.com/u/30121918?s=460&v=4)
