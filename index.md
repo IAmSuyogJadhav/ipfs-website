@@ -9,7 +9,7 @@ I will list my projects over here, along with ideas for new projects.
 - #### In Progress
   * [Emotion Recognition](https://github.com/IAmSuyogJadhav/Emotion-Recognition)
   * [Devanagari Number Recognition](https://github.com/IAmSuyogJadhav/Devanagari-Number-Recognition)
-  * [Solved Exercises from Advanced Machine Learning specialization, Coursera](https://github.com/IAmSuyogJadhav/AML-Specialization-Exercises-Coursera)
+  * [Solved Exercises from Advanced Machine Learning specialization, Coursera](../AML- Specialization-Exercises-Coursera)
 
 ### About Me
 
