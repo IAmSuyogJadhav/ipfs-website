@@ -4,6 +4,7 @@ I will list my projects over here, along with ideas for new projects.
 
 ## Projects 
 - #### Completed
+  * [FaceSearch](https://IAmSuyogJadhav.github.io/FaceSearch/)
   * [Customizable Neural Network in Python _from scratch_ ](https://github.com/IAmSuyogJadhav/Neural-Network-in-Python-using-Numpy)
 
 - #### In Progress
@@ -19,7 +20,7 @@ I am a first year UG student at IIT(ISM) Dhanbad. I am pursuing various AI cours
 
 #### I have completed
 - Machine Learning by Stanford, Coursera
-- Intro to Deep Learning by National Research University, Coursera
+- Deep Learning specialization by deeplearning.ai, Coursera
 
 #### I have learnt
 - Python(2/3)
@@ -30,6 +31,7 @@ I am a first year UG student at IIT(ISM) Dhanbad. I am pursuing various AI cours
 
 #### I can work with
 - TensorFlow
+- OpenCV
 - Keras
 - Numpy
 - Pandas
@@ -45,4 +47,4 @@ I am a first year UG student at IIT(ISM) Dhanbad. I am pursuing various AI cours
 
 
 #### Connect with me on
-Blog: [ML Endeavours](http://www.mlendeavours.wordpress.com), [Linkedin](https://www.linkedin.com/in/IAmSuyogJadhav/), [Facebook](https://www.facebook.com/IAmSuyogJadhav) and [Twitter](https://www.twitter.com/IAmSuyogJadhav)
+Blog: [ML Endeavours](http://www.mlendeavours.wordpress.com), [Linkedin](https://www.linkedin.com/in/IAmSuyogJadhav/), [Facebook](https://www.facebook.com/IAmSuyogJadhav) and [Twitter](https://www.twitter.com/IAmSuyogJadhav), [GitHub](https://github.com/IAmSuyogJadhav)
