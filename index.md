@@ -47,4 +47,4 @@ I am a first year UG student at IIT(ISM) Dhanbad. I am pursuing various AI cours
 
 
 #### Connect with me on
-Blog: [ML Endeavours](http://www.mlendeavours.wordpress.com), [Linkedin](https://www.linkedin.com/in/IAmSuyogJadhav/), [Facebook](https://www.facebook.com/IAmSuyogJadhav) and [Twitter](https://www.twitter.com/IAmSuyogJadhav), [GitHub](https://github.com/IAmSuyogJadhav)
+[ML Endeavours](http://www.mlendeavours.wordpress.com) (blog), [Linkedin](https://www.linkedin.com/in/IAmSuyogJadhav/), [Facebook](https://www.facebook.com/IAmSuyogJadhav), [Twitter](https://www.twitter.com/IAmSuyogJadhav) and [GitHub](https://github.com/IAmSuyogJadhav)
