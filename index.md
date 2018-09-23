@@ -8,9 +8,9 @@ I list my projects over here, along with ideas for new projects.
   * [Devanagari Number Recognition](https://github.com/IAmSuyogJadhav/Devanagari-Number-Recognition)
 
 - #### In Progress
-  * [Solved Exercises from Advanced Machine Learning specialization, Coursera](../AML-Specialization-Exercises-Coursera)
   * DriveSmart (_Private_)
   * T. A. L. K. (_Private_)
+  * [Solved Exercises from Advanced Machine Learning specialization, Coursera](../AML-Specialization-Exercises-Coursera)
 
 ### About Me
 
