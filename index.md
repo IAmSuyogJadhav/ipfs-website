@@ -1,4 +1,4 @@
-<head><link rel="shortcut icon" type="image/x-icon" href="favicon.ico"></head>
+<head><link rel="shortcut icon" type="image/png" href="favicon.png"></head>
 I list my projects over here, along with ideas for new projects.
 
 <h2 align="center"> Projects </h2>
