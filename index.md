@@ -48,5 +48,6 @@ I am a second year UG student at IIT(ISM) Dhanbad. I work on interesting project
 [ML Endeavours](http://www.mlendeavours.wordpress.com) (blog), [Linkedin](https://www.linkedin.com/in/IAmSuyogJadhav/), [Facebook](https://www.facebook.com/IAmSuyogJadhav), [Twitter](https://www.twitter.com/IAmSuyogJadhav) and [GitHub](https://github.com/IAmSuyogJadhav)
 
 <h2 align="center"> Contact me </h2>
+
 - Email: [suyog.17je002775@ece.ism.ac.in](mailto:suyog.17je002775@ece.ism.ac.in)
 - Phone: +91 7719058077
