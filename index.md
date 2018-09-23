@@ -17,7 +17,7 @@ I list my projects over here, along with ideas for new projects.
 
 <img align="right" src="https://avatars1.githubusercontent.com/u/30121918?s=460&v=4" alt="Mugshot" height="200" width="200">
 
-I am a second year UG student at IIT(ISM) Dhanbad. I work on interesting projects based on deep learning and computer vision. _My resume can be found [here](./CV.pdf)_
+I am a second year UG student at IIT(ISM) Dhanbad. I work on interesting projects based on deep learning and computer vision. My resume can be found **[here](./CV.pdf)**
 #### I have completed
 - Machine Learning by Stanford, Coursera
 - Deep Learning specialization by deeplearning.ai, Coursera
