@@ -38,14 +38,10 @@ I am a second year UG student at IIT(ISM) Dhanbad. I work on interesting project
 - Pandas
 - Matplotlib
 
-#### I am learning/skilled at
+#### I am skilled at
 - Machine Learning
 - Deep Learning
 - Computer Vision
-- Natural Language Processing
-- Voice Recognition
-
-
 
 #### Connect with me on
 [ML Endeavours](http://www.mlendeavours.wordpress.com) (blog), [Linkedin](https://www.linkedin.com/in/IAmSuyogJadhav/), [Facebook](https://www.facebook.com/IAmSuyogJadhav), [Twitter](https://www.twitter.com/IAmSuyogJadhav) and [GitHub](https://github.com/IAmSuyogJadhav)
