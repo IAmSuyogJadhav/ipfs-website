@@ -13,8 +13,7 @@ I list my projects over here, along with ideas for new projects.
   * [Solved Exercises from Advanced Machine Learning specialization, Coursera](../AML-Specialization-Exercises-Coursera)
 
 ### About Me
-<img align="right" src="https://avatars1.githubusercontent.com/u/30121918?s=460&v=4">
-![Image](https://avatars1.githubusercontent.com/u/30121918?s=460&v=4)
+<img align="left" src="https://avatars1.githubusercontent.com/u/30121918?s=460&v=4">
 
 I am a second year UG student at IIT(ISM) Dhanbad. I work on interesting projects based on deep learning and computer vision. 
 
