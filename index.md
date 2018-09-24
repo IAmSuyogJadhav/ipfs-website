@@ -1,5 +1,6 @@
 <head><link rel="shortcut icon" type="image/png" href="favicon.png"></head>
 I list my projects over here, along with ideas for new projects.
+<h2 align="center"><a href="./CV.pdf">View my complete CV</a></h2>
 
 <h2 align="center"> Projects </h2>
 
@@ -18,7 +19,7 @@ I list my projects over here, along with ideas for new projects.
 
 <img align="right" src="https://avatars1.githubusercontent.com/u/30121918?s=460&v=4" alt="Mugshot" height="200" width="200">
 
-I am a second year UG student at IIT(ISM) Dhanbad. I work on interesting projects based on deep learning and computer vision. My resume can be found **[here](./CV.pdf)**
+I am a second year UG student at IIT(ISM) Dhanbad. I work on interesting projects based on deep learning and computer vision.
 #### I have completed
 - Machine Learning by Stanford, Coursera
 - Deep Learning specialization by deeplearning.ai, Coursera
@@ -34,6 +35,7 @@ I am a second year UG student at IIT(ISM) Dhanbad. I work on interesting project
 #### I can work with
 - TensorFlow
 - OpenCV
+- dlib
 - Keras
 - Numpy
 - Pandas
