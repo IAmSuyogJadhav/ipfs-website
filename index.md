@@ -1,5 +1,5 @@
 <head><link rel="shortcut icon" type="image/png" href="favicon.png"></head>
-I list my projects over here, along with ideas for new projects.
+I list my projects over here, along with ideas for new projects.<br />
 <h2 align="center"><a href="./CV.pdf">View my complete CV</a></h2>
 
 <h2 align="center"> Projects </h2>
@@ -54,3 +54,7 @@ I am a second year UG student at IIT(ISM) Dhanbad. I work on interesting project
 
 - Email: [suyog.17je002775@ece.ism.ac.in](mailto:suyog.17je002775@ece.ism.ac.in)
 - Phone: +91 7719058077
+
+Hall of fame
+:-----:
+[![](https://sourcerer.io/fame/IAmSuyogJadhav/IAmSuyogJadhav/iamsuyogjadhav.github.io/images/0)](https://sourcerer.io/fame/IAmSuyogJadhav/IAmSuyogJadhav/iamsuyogjadhav.github.io/links/0)[![](https://sourcerer.io/fame/IAmSuyogJadhav/IAmSuyogJadhav/iamsuyogjadhav.github.io/images/1)](https://sourcerer.io/fame/IAmSuyogJadhav/IAmSuyogJadhav/iamsuyogjadhav.github.io/links/1)[![](https://sourcerer.io/fame/IAmSuyogJadhav/IAmSuyogJadhav/iamsuyogjadhav.github.io/images/2)](https://sourcerer.io/fame/IAmSuyogJadhav/IAmSuyogJadhav/iamsuyogjadhav.github.io/links/2)[![](https://sourcerer.io/fame/IAmSuyogJadhav/IAmSuyogJadhav/iamsuyogjadhav.github.io/images/3)](https://sourcerer.io/fame/IAmSuyogJadhav/IAmSuyogJadhav/iamsuyogjadhav.github.io/links/3)[![](https://sourcerer.io/fame/IAmSuyogJadhav/IAmSuyogJadhav/iamsuyogjadhav.github.io/images/4)](https://sourcerer.io/fame/IAmSuyogJadhav/IAmSuyogJadhav/iamsuyogjadhav.github.io/links/4)[![](https://sourcerer.io/fame/IAmSuyogJadhav/IAmSuyogJadhav/iamsuyogjadhav.github.io/images/5)](https://sourcerer.io/fame/IAmSuyogJadhav/IAmSuyogJadhav/iamsuyogjadhav.github.io/links/5)[![](https://sourcerer.io/fame/IAmSuyogJadhav/IAmSuyogJadhav/iamsuyogjadhav.github.io/images/6)](https://sourcerer.io/fame/IAmSuyogJadhav/IAmSuyogJadhav/iamsuyogjadhav.github.io/links/6)[![](https://sourcerer.io/fame/IAmSuyogJadhav/IAmSuyogJadhav/iamsuyogjadhav.github.io/images/7)](https://sourcerer.io/fame/IAmSuyogJadhav/IAmSuyogJadhav/iamsuyogjadhav.github.io/links/7)
