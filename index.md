@@ -1,3 +1,9 @@
+---
+title: FaceSearch
+layout: post
+comments: true
+---
+
 <head><link rel="shortcut icon" type="image/png" href="favicon.png"></head>
 I list my projects over here, along with ideas for new projects.<br />
 <h2 align="center"><a href="./CV.pdf">View my complete CV</a></h2>
