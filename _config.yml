@@ -1,3 +1,20 @@
 title: Suyog Jadhav
 description: Amateur Machine Learning Developer
 theme: jekyll-theme-cayman
+
+footer-links:
+  dribbble:
+  email: suyog.jadhav1@gmail.com
+  facebook: IAmSuyogJadhav
+  flickr:
+  github: IAmSuyogJadhav
+  instagram: IAmSuyogJadhav
+  linkedin: IAmSuyogJadhav
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter: IAmSuyogJadhav
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: +SuyogJadhav1 # anything in your profile username that comes after plus.google.com/
+  
+  
