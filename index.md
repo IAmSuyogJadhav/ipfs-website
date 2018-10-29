@@ -51,6 +51,8 @@ I am a second year UG student at IIT(ISM) Dhanbad. I work on interesting project
 - Machine Learning
 - Deep Learning
 - Computer Vision
+- Audio  Processing
+- Image/ Video Processing
 
 <h2 align="center"> Connect with me on </h2>
 
