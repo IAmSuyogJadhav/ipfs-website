@@ -1,20 +1,118 @@
-title: Suyog Jadhav
-description: Amateur Machine Learning Developer
-theme: jekyll-theme-cayman
+# Site settings
+title:       Suyog Jadhav: Did someone say AI?
+email:       me@suyogjadhav.com
+author:      Jonathon Belotti
+description: ""
+baseurl:     ""
+url:         "https://iamsuyogjadhav.github.io/"
+date_format: "%b %-d, %Y"
 
-footer-links:
-  dribbble:
-  email: suyog.jadhav1@gmail.com
-  facebook: IAmSuyogJadhav
-  flickr:
-  github: IAmSuyogJadhav
-  instagram: IAmSuyogJadhav
-  linkedin: IAmSuyogJadhav
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: IAmSuyogJadhav
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: +SuyogJadhav1 # anything in your profile username that comes after plus.google.com/
-  
-  
+# Google services
+google_verification:
+# Use either direct GA implementation or set up GTM account
+# - using both will skew your data (leave blank to not use at all)
+google_analytics: UA-135067181-1
+google_tag_manager:
+# Bing services
+bing_verification:
+
+# Optional features
+animated:             false
+show_related_posts:   false
+show_post_footers:    True
+show_social_icons:    True
+ajaxify_contact_form: false
+enable_mathjax: false
+extended_fonts: false
+enable_anchorjs: false
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname: 'iamsuyogjadhav'
+
+# Facebook Comments plugin
+# (leave blank to disable Facebook Comments, otherwise set it to true)
+facebook_comments:
+facebook_appid:
+facebook_comments_number: 10
+
+# Social icons
+github_username: iamsuyogjadhav
+bitbucket_username:
+stackoverflow_id:
+twitter_username: iamsuyogjadhav
+skype_username:
+steam_nickname:
+google_plus_id:
+linkedin_username: iamsuyogjadhav
+angellist_username:
+medium_id: iamsuyogjadhav
+youtube_channel_id:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Post sharing icons
+show_sharing_icons: False # Looks Ugly atm
+# Change to 'true' to enable individual icons
+share_facebook: True
+share_twitter: True
+share_googleplus: True
+share_linkedin: True
+share_digg: false
+share_tumblr: false
+share_reddit: True
+share_stumbleupon: false
+share_hackernews: false
+
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+  share_buttons:
+    text:         'Share this post!'
+    facebook:     'Share on Facebook'
+    twitter:      'Share on Twitter'
+    googleplus:   'Share on Google+'
+    linkedin:     'Share on LinkedIn'
+    digg:         'Share on Digg'
+    tumblr:       'Share on Tumblr'
+    reddit:       'Share on Reddit'
+    stumbleupon:  'Share on StumbleUpon'
+    hackernews:   'Share on Hacker News'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+  index:
+    coming_soon: 'Coming soon...'
+  contact:
+    email:    'Email Address'
+    content:  'What would you like to say?'
+    subject:  'New submission!'
+    submit:   'Say Hello'
+    ajax:
+      sending:  'sending..'
+      sent:     'Message sent!'
+      error:    'Error!'
+  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  og_locale: 'en_US'
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data', 'footnotes']
+permalink:    pretty
+paginate:     4
+sass:
+  compressed: true
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+# https://github.com/jekyll/jekyll/issues/2938
+exclude: [vendor]
+
+# Collections (for design section of site)
+collections:
+  portfolio:
+    output: true
