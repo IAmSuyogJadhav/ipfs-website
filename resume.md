@@ -86,7 +86,9 @@ Most Creative Team​ ​in Unihack 2016 AUG 2016
 * Data Engineering
 * Algorithm Design
 * Scripting -->
-<iframe width=100% height=1080 style='align-center;' src="https://docs.google.com/document/d/1mSG-1C_UeEcyrBacRP99CS78Tww_wNnWUAkID5_wQw0/edit?widget=false&rm=minimal"></iframe>
+
+<iframe width="100%" height="1080" 
+src="https://docs.google.com/document/d/1mSG-1C_UeEcyrBacRP99CS78Tww_wNnWUAkID5_wQw0/edit?widget=false&rm=minimal"></iframe>
 
 ## Links
 
