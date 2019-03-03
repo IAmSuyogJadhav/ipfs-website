@@ -5,8 +5,7 @@ tags: resume
 permalink: /resume/
 ---
 
-
-<iframe width="100%" height="1080" src="https://docs.google.com/document/d/1mSG-1C_UeEcyrBacRP99CS78Tww_wNnWUAkID5_wQw0/edit?widget=false&rm=minimal"></iframe>
+<iframe width="100%" height="1080" src="https://docs.google.com/document/d/e/2PACX-1vQCPcv0T8h7BQ-Y2J9Y5vDBh5YQ_6mFpYSS-Wp--kmm5GhRoyx7ogDoyUIHFw8XKDkiJFU5PBZ-Nsl0/pub?embedded=true"></iframe>
 
 
 <!-- # Suyog Jadhav
@@ -89,7 +88,7 @@ Most Creative Team​ ​in Unihack 2016 AUG 2016
 * Web Applications & APIs
 * Data Engineering
 * Algorithm Design
-* Scripting 
+* Scripting
 -->
 
 ## Links
