@@ -4,11 +4,9 @@ title: Resumé
 tags: resume
 permalink: /resume/
 ---
-  
-<div class="video-container">
-    <iframe src="http://www.youtube.com/embed/4aQwT3n2c1Q" height="315" width="560" allowfullscreen="" frameborder="0">
-    </iframe>
-</div>
+
+
+<iframe width="1920" height="1080" src="https://docs.google.com/document/d/1mSG-1C_UeEcyrBacRP99CS78Tww_wNnWUAkID5_wQw0/edit?widget=false&rm=minimal"></iframe>
 
 
 <!-- # Suyog Jadhav
@@ -93,9 +91,6 @@ Most Creative Team​ ​in Unihack 2016 AUG 2016
 * Algorithm Design
 * Scripting 
 -->
-
-<!-- <iframe width="100%" height="1080" 
-src="https://docs.google.com/document/d/1mSG-1C_UeEcyrBacRP99CS78Tww_wNnWUAkID5_wQw0/edit?widget=false&rm=minimal"></iframe> -->
 
 ## Links
 
