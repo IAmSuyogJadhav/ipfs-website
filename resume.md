@@ -5,7 +5,9 @@ tags: resume
 permalink: /resume/
 ---
 
-<iframe width="120%" height="1080" frameBorder="0" marginwidth="0" marginheight="0" scrolling="No" hspace="0" vspace="0" src="https://docs.google.com/document/d/e/2PACX-1vQCPcv0T8h7BQ-Y2J9Y5vDBh5YQ_6mFpYSS-Wp--kmm5GhRoyx7ogDoyUIHFw8XKDkiJFU5PBZ-Nsl0/pub?embedded=true"></iframe>
+<!-- <iframe width="100%" height="1080" frameBorder="0" marginwidth="0" marginheight="0" scrolling="No" hspace="0" vspace="0" src="https://docs.google.com/document/d/e/2PACX-1vQCPcv0T8h7BQ-Y2J9Y5vDBh5YQ_6mFpYSS-Wp--kmm5GhRoyx7ogDoyUIHFw8XKDkiJFU5PBZ-Nsl0/pub?embedded=true"></iframe> -->
+
+{% include resume.html %}
 
 
 <!-- # Suyog Jadhav
@@ -91,11 +93,11 @@ Most Creative Team​ ​in Unihack 2016 AUG 2016
 * Scripting
 -->
 
-## Links
+<!-- ## Links
 
 * <i class="fa fa-envelope"></i> <a href="mailto:me@suyogjadhav.com">me@suyogjadhav.com</a><br />
 * <i class="fa fa-github"></i> <a href="http://github.com/IAmSuyogJadhav">IAmSuyogJadhav</a><br />
-*  <i class="fa fa-twitter"></i> <a href="http://twitter.com/IAmSuyogJadhav">IAmSuyogJadhav</a><br />
+*  <i class="fa fa-twitter"></i> <a href="http://twitter.com/IAmSuyogJadhav">IAmSuyogJadhav</a><br /> -->
 
 <!-- ### Footer
 
