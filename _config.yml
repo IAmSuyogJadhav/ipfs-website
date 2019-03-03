@@ -1,8 +1,7 @@
 # Site settings
 title:       "Suyog Jadhav: Did someone say AI?"
 email:       me@suyogjadhav.com
-author:
-  name: "Suyog Jadhav"
+author:      "Suyog Jadhav"
 
 description: ""
 baseurl:     ""
