@@ -1,7 +1,9 @@
 # Site settings
 title:       "Suyog Jadhav: Did someone say AI?"
 email:       me@suyogjadhav.com
-author:      "Jonathon Belotti"
+author:
+  name: "Jonathon Belotti"
+
 description: ""
 baseurl:     ""
 url:         "https://iamsuyogjadhav.github.io/"
@@ -116,3 +118,31 @@ exclude: [vendor]
 collections:
   portfolio:
     output: true
+
+
+##################################
+#### beautiful-jekyll options ####
+##################################
+
+# For Footer
+social-network-links:
+  rss: true
+  email: "me@suyogjadhav.com"
+  facebook: iamsuyogjadhav
+  github: iamsuyogjadhav
+  twitter: iamsuyogjadhav
+  # reddit: yourname
+  google-plus: +iamsuyogjadhav
+  linkedin: iamsuyogjadhav
+  # xing: yourname
+  # stackoverflow: "3943160/daattali"
+  # snapchat: deanat78
+  # instagram: deanat78
+  # youtube: user/deanat78
+  spotify: IAmSuyogJadhav
+  # telephone: +14159998888
+  # steam: deanat78
+  # twitch: yourname
+  # yelp: yourname
+
+url-pretty: "suyogjadhav.com
