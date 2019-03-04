@@ -16,8 +16,9 @@ $(document).ready(function () {
     });
 
     $('.print-button').click(function () {
-        console.log("hey");
-        window.print();
+        console.log("workaround");
+        // window.print();
+
         return false;
     });
 });
