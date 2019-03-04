@@ -15,9 +15,9 @@ permalink: /resume/
 <div id="webaddress">
 <a href="mailto:suyog.17je002775@ece.ism.ac.in">suyog.17je002775@ece.ism.ac.in</a>
 |
-<i class="fa fa-github"></i> <a href="http://github.com/iamsuyogjadhav">IAmSuyogJadhav</a>
+<i class="fa fa-github"></i> <a href="http://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
 |
-<i class="fa fa-twitter"></i> <a href="http://twitter.com/iamsuyogjadhav">IAmSuyogJadhav</a>
+<i class="fa fa-twitter"></i> <a href="http://twitter.com/{{ site.github_username }}">{{ site.github_username }}</a>
 </div>
 
 
@@ -95,9 +95,9 @@ Most Creative Team​ ​in Unihack 2016 AUG 2016
 
 <!-- ## Links
 
-* <i class="fa fa-envelope"></i> <a href="mailto:me@suyogjadhav.com">me@suyogjadhav.com</a><br />
-* <i class="fa fa-github"></i> <a href="http://github.com/IAmSuyogJadhav">IAmSuyogJadhav</a><br />
-*  <i class="fa fa-twitter"></i> <a href="http://twitter.com/IAmSuyogJadhav">IAmSuyogJadhav</a><br /> -->
+* <i class="fa fa-envelope"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a><br />
+* <i class="fa fa-github"></i> <a href="http://github.com/{{ site.github_username }}">{{ site.github_username }}</a><br />
+*  <i class="fa fa-twitter"></i> <a href="http://twitter.com/{{ site.github_username }}">{{ site.github_username }}</a><br /> -->
 
 <!-- ### Footer
 
