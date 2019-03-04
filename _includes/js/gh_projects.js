@@ -32,7 +32,7 @@ jQuery.fn.getRepos = function (username) {
 
   function sortByForks(repos) {
     repos.sort(function (a, b) {
-      return b.forks - a.forks; /* Descending order for number of forks based sorting. */
+      return b.stars - a.stars; /* Descending order for number of forks based sorting. */
     });
   }
 
