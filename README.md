@@ -10,11 +10,11 @@ Just my website. The theme is [thundergolfer/junior-theme](https://github.com/th
 
 ### What you can find there
 
-* [Blog posts](http://jonathonbelotti.com/)
-* [Some of my design work](http://jonathonbelotti.com/design/)
-* [My resumé](http://jonathonbelotti.com/resume/)
-* [A Summary of my open-source work](http://jonathonbelotti.com/projects/)
-* [An basic about page](http://jonathonbelotti.com/about/)
+* [Blog posts](https://jonathonbelotti.com/)
+* [Some of my design work](https://jonathonbelotti.com/design/)
+* [My resumé](https://jonathonbelotti.com/resume/)
+* [A Summary of my open-source work](https://jonathonbelotti.com/projects/)
+* [An basic about page](https://jonathonbelotti.com/about/)
 
 ### Other places you can find me
 
