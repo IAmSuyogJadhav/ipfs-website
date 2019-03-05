@@ -1,8 +1,8 @@
 ---
 layout: default_design
-title: Sketch & Design
+title: SpotLight
 tags: portfolio
-permalink: /design/
+permalink: /spotlight/
 js:
 - js/util_buttons.js
 ---
@@ -11,7 +11,7 @@ js:
 {% for post in site.portfolio %}
   <li>
     <div class="project"
-         style='background-image: url(/images/portfolio/thumbs/{{ post.uid }}.jpg)'>
+         style='background-image: url(/images/portfolio/{{ post.thumb }})'>
       <a class="cover" href="{{ post.url }}">
         <div class="project-details">
           <span>
@@ -25,20 +25,20 @@ js:
           </span>
         </div>
       </a>
-      <!-- {% if post.opensource %}
+      {% if post.opensource %}
         {% if post.blackbg %}
           <span class="github-icon light"></span>
         {% else %}
           <span class="github-icon"></span>
         {% endif %}
-      {% endif %} -->
-      <!-- {% if post.progress %}
+      {% endif %}
+      {% if post.progress %}
         <span class="progress">
           <span class="under-construction"></span>
           <span class="progress-bar" style="width: {{ post.progress }}%"></span>
         </span>
-      {% endif %} -->
-      <!-- <img class="thumb" src="/images/portfolio/thumbs/{{ post.uid }}.jpg" /> -->
+      {% endif %}
+      <img class="thumb" src="/images/portfolio/{{ post.thumb }}" />
       <div class="aspect-two-one"></div>
     </div>
   </li>
