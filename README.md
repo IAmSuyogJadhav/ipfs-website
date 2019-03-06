@@ -1,4 +1,4 @@
-# thundergolfer.github.io
+# SuyogJadhav.Com
 
 Just my website. The theme is [thundergolfer/junior-theme](https://github.com/thundergolfer/junior-theme)
 
@@ -10,15 +10,8 @@ Just my website. The theme is [thundergolfer/junior-theme](https://github.com/th
 
 ### What you can find there
 
-* [Blog posts](https://jonathonbelotti.com/)
-* [Some of my design work](https://jonathonbelotti.com/design/)
-* [My resumé](https://jonathonbelotti.com/resume/)
-* [A Summary of my open-source work](https://jonathonbelotti.com/projects/)
-* [An basic about page](https://jonathonbelotti.com/about/)
-
-### Other places you can find me
-
-* Twitter @ [jonobelotti_IO](https://twitter.com/jonobelotti_io)
-* Youtube @ [Thundergolfer.IO](https://www.youtube.com/channel/UCSP7fMKwmaXaZhViAV2Vgvg)
-* LinkedIn @ [Jonathon Belotti](https://www.linkedin.com/in/jonathonbelotti/)
-* Medium @ [Jonathon Belotti](https://medium.com/@thundergolfer) (just has mirrors of my blog posts)
+* [Blog posts](https://suyogjadhav.com/)
+* [SpotLight](https://suyogjadhav.com/spotlight/)
+* [My resumé](https://suyogjadhav.com/resume/)
+* [A Summary of my open-source work](https://suyogjadhav.com/projects/)
+* [A basic about page](https://suyogjadhav.com/about/)
