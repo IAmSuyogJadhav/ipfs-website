@@ -10,95 +10,74 @@ permalink: /resume/
 {% include resume.html %}
 
 
-<!-- # Suyog Jadhav
+# Suyog Jadhav
 
 <div id="webaddress">
 <a href="mailto:suyog.17je002775@ece.ism.ac.in">suyog.17je002775@ece.ism.ac.in</a>
 |
 <i class="fa fa-github"></i> <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
 |
-<i class="fa fa-twitter"></i> <a href="https://twitter.com/{{ site.github_username }}">{{ site.github_username }}</a>
+<i class="fa fa-twitter"></i> <a href="https://twitter.com/{{ site.twitter_username }}">{{ site.twitter_username }}</a>
 </div>
 
 
-## Experience
-`2017-`
-__Data Engineering Intern, Zendesk__ Work alongside the data science team on the machine learning driven Automatic Answers and Satisfaction Prediction products.
-
-`2016`
-__Web Developer, RMIT Melbourne__ Integrated xAPI into existing RMIT web tools, and worked on changing student’s relationship with their learning data.
-
-`2016`
-__Research Assistant, RMIT Melbourne__ Used Machine Learning and NLP libraries to predict language acquisition in second language learners.
-
-__Tutor (Computer Science), Indigenous Tutorial Assistance Scheme__ Tutor students in algorithm design and analysis, database concepts, and software engineering fundamentals.
-
-## Education
-
-`2015-`
-__Bachelor of Software Engineering, RMIT Melbourne__
-
-***GPA 3.9:***  100 - Web Programming, 97 - Soft. Eng. Fundamentals, 93 - Data Comm, 89 - Discrete Math
-
-`2011-13`
-__Bachelor of Environments (Architecture), University of Melbourne__
-
-`2007-10`
-__Melbourne High School__ 95.80 / 100 ATAR
-
-## University Leadership & Involvement
-
-`2016-`
-__President, Computer Science & IT Society__ Rebranded the club, completed its website and have set up new student engagement initiatives.
-
-`2014-15`
-__Lead Investment & IT Officer, Foresight Investment__ With over $50,000 AUM the group generated annualised returns of greater than 11% while the ASX200 went down.
-
-`2016-`
-__Founder & Vice President - RMIT Programming Club__ Setup club’s communication channels.branding, and website. Created leadership group and now run meetings biweekly
-
 ## Projects
+`Dec. 2018-Ongoing`
+__T. A. L. K. (The Aid for Language Kinetics)__ Currently working on this research project under the supervision of [Dr. J. Thangaraj](https://www.researchgate.net/profile/Jaisingh_Thangaraj). We are trying to design custom recurrent neural networks to use for detecting the whole American sign language (including the gestures) in a more practical and scalable way, using small and lightweight hardware sensors mounted on the arms of the user, instead of bulky cameras. Can be thought of as text-to-speech, but for sign language.
 
-### Insults
+`Jan. 2019`
+__[Brainy](https://github.com/IAmSuyogJadhav/Brainy/)__ Along with 2 fellow members of the team, designed a web portal that can be used by doctors to get the brain MRI scans analyzed simply by uploading the scans using their login ID. We modified the U-Net model and trained it to segment out the brain tumors from the MRI scans of the brain. We achieved a dice coefficient of 0.43 (higher the better). The project got 4th rank out of a total of 22 finalist teams in the PanIIT AI Hackathon 2019.
 
-Uses Machine Learning to detect if online comments are insulting or derogatory. In the spirit of Google’s Perspective Project.
+`Oct. 2018`
+__[WalkSafe](https://github.com/IAmSuyogJadhav/WalkSafe)__ Along with Udbhav and Aniket (fellow members of the team), designed an application that alerts unaware pedestrians and those with hearing disabilities if a car is approaching them. We synthesized the dataset by randomly superposing car horn snippets on background noise. Trained an LSTM model and got ~85% accuracy on the validation set.
 
-### aimacode/aima-(java|python)
-Implemented the HITS (python and java) algorithm and CYK Parsing algorithm (java).
+`Sept. 2018`
+__DriveSmart (A startup funded by CIIE, IIT Dhanbad)__ Developed a smart system for cars that alerts the driver with visual cues and audio alerts when the driver gets distracted from the road or is drowsy. Used OpenCV, and dlib to create a multithreaded real-time object detector that could achieve object detection speeds of more than 60 FPS. Further, designed and trained a head pose estimation model in TensorFlow. Only the multithreaded object detector is open-sourced ([here](https://github.com/IAmSuyogJadhav/Lightning-Fast-Object-Detector)) due to NDA.
 
-### sudkamp-langs-machines=(java|python)
+`Jul. 2018`
+__[FaceSearch](https://www.github.com/IAmSuyogJadhav/FaceSearch)__ Created a command-line tool that takes an image, detects faces in it, lets the user select one and then tries to establish the identity of the person by performing Google reverse Image search on the face. Used OpenCV. Implemented in Python. The project got 25 stars on the GitHub repository in a short time after its release.
 
-Implementing computing theory algorithms from Sudkamp’s Languages and Machines textbook in Python and Java.
+The complete list of projects can be found on [my Github profile](https://github.com/IAmSuyogJadhav).
 
-__* Please see my Github profile for other projects and pull-request contributions.__
+## Positions Held
 
-## Awards
+`Dec. 2018 - Jan. 2019-`
+__Python Developer Intern, DataProrrisi Inc__ Developed the backend in Flask for DataProrrisi, a startup focused on revolutionizing the loan acquisition process using machine learning, based in California.
 
-1​st​ Place ​in NASA’s SpaceApps Melbourne Hackathon ​APR 2016
+`Dec. 2017 - Present`
+__AI Team Member, Cyber Labs__ A core member of the AI team of Cyber Labs, the official cyber society of IIT (ISM), Dhanbad. Cyber Labs is the initiative of IIT (ISM) students on the footsteps of MIT Media Labs, MIT. Our team focuses on working on various projects that use ML, DL or in general, any field of AI.
 
-2nd Place in Facebook Melbourne Hackathon 2017
+## Certifications
 
-Most Creative Team​ ​in Unihack 2016 AUG 2016
+`by HSE - National Research University on Coursera`
+__Advanced Machine Learning Specialization__ 
+- [Introduction to Deep Learning (with Honors)](https://www.coursera.org/account/accomplishments/verify/32SDG3EQFHNQ)
+- [How to Win a Data Science Competition: Learn from Top Kagglers (with Honors)](https://www.coursera.org/account/accomplishments/verify/897TKTQY9QCH)
 
+`by deeplearning.ai on Coursera`
+__[Deep Learning Specialization (5/5 Courses)](https://www.coursera.org/account/accomplishments/specialization/certificate/LUB5A3JNJKHC)__
 
-## Technical
+`by Stanford University on Coursera`
+__[Machine Learning](https://www.coursera.org/account/accomplishments/verify/PKVYKUTJCGFN)__
 
-* **Python**
-* **Ruby**
-* **Java**
-* Git
-* Web Applications & APIs
-* Data Engineering
-* Algorithm Design
-* Scripting
--->
+## Skills
 
-<!-- ## Links
+### Languages
+Python 3 | Python 2 | C++ | C | Matlab | GNU Octave | Javascript | CSS 
 
-* <i class="fa fa-envelope"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a><br />
-* <i class="fa fa-github"></i> <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a><br />
-*  <i class="fa fa-twitter"></i> <a href="https://twitter.com/{{ site.github_username }}">{{ site.github_username }}</a><br /> -->
+### Tools & Libraries
+Keras | TensorFlow | OpenCV | dlib | Git | Linux | Scipy stack | Pandas | Matplotlib | Scikit-learn | Regex | XGBoost | PyTorch | Flask
 
-<!-- ### Footer
+### Development
+Machine Learning | Deep Learning | 2D and 3D Convolutional Neural Networks | Recurrent Neural Networks | Generative Networks | Fine-tuning pre-trained models | Computer Vision | Competitive Data Science | Audio Processing | Image/Video Processing | API & Backend Development
 
-Last updated: May 2013 -->
+## Recent Achievements
+
+`Jan. 2019`
+__3rd Runner Up @ PanIIT Mission AI: Solve For India__ Secured 4th rank in the final round out of 22 teams selected for the final round. We trained a model to segment brain tumors from 3D MRI data. We were able to achieve a weighted dice loss of around ~-0.43 on the validation set. The model was then served through a web app, designed by me using Flask. Previously, we had achieved 11th rank overall out of more than 300 teams in the qualifying round to qualify for the final round. The final round of the Mission AI: Solve for India hackathon organized by PanIIT, was held at IIT Delhi from 19th to 20th January 2019.
+Team Members: Udbhav Bamba, Gk Tejus
+
+`Oct. 2018`
+__Recipient: PyTorch scholarship Udacity - Facebook__ Got selected for the pyTorch scholarship challenge by Facebook AI and Udacity, to pursue an in-depth course on pyTorch by Facebook AI on Udacity.
+
+Last updated: {% last_updated %}
