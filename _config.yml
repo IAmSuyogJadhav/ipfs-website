@@ -110,7 +110,6 @@ sass:
 gems:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-last-modified-at
 
 # https://github.com/jekyll/jekyll/issues/2938
 exclude: [vendor]
