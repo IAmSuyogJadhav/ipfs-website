@@ -7,9 +7,6 @@ permalink: /resume/
 
 <!-- <iframe width="100%" height="1080" frameBorder="0" marginwidth="0" marginheight="0" scrolling="No" hspace="0" vspace="0" src="https://docs.google.com/document/d/e/2PACX-1vQCPcv0T8h7BQ-Y2J9Y5vDBh5YQ_6mFpYSS-Wp--kmm5GhRoyx7ogDoyUIHFw8XKDkiJFU5PBZ-Nsl0/pub?embedded=true"></iframe> -->
 
-{% include resume.html %}
-
-
 # Suyog Jadhav
 
 <div id="webaddress">
@@ -80,4 +77,4 @@ Team Members: Udbhav Bamba, Gk Tejus
 `Oct. 2018`
 __Recipient: PyTorch scholarship Udacity - Facebook__ Got selected for the pyTorch scholarship challenge by Facebook AI and Udacity, to pursue an in-depth course on pyTorch by Facebook AI on Udacity.
 
-Last updated: {% last_updated %}
+Last updated: {{ page.last_modified_at }}
