@@ -10,7 +10,7 @@ summary:    "Brainy is a virtual MRI analyzer. Just upload the MRI scan file and
 categories: projects
 progress: 50
 github: Brainy
-permalink: /Brainy
+#permalink: /Brainy
 ---
 
 <style type="text/css">
