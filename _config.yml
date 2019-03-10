@@ -29,7 +29,7 @@ enable_anchorjs: false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname: 'iamsuyogjadhav'
+disqus_shortname: 'IAmSuyogJadhav'
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
@@ -38,16 +38,16 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username: iamsuyogjadhav
+github_username: IAmSuyogJadhav
 bitbucket_username:
 stackoverflow_id:
-twitter_username: iamsuyogjadhav
+twitter_username: IAmSuyogJadhav
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username: iamsuyogjadhav
+linkedin_username: IAmSuyogJadhav
 angellist_username:
-medium_id: iamsuyogjadhav
+medium_id: IAmSuyogJadhav
 youtube_channel_id:
 bitcoin_url:
 paypal_url:

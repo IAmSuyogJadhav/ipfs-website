@@ -8,7 +8,7 @@ tags: resume
 ---
 
 # Suyog Jadhav
-<!-- <div id="webaddress">
+<div id="webaddress">
 <i class="fa fa-envelope"></i> <a href="mailto:suyog.17je002775@ece.ism.ac.in">mail</a>
 |
 <i class="fa fa-linkedin"></i> <a href="https://linkedin.com/{{ site.linkedin_username }}">{{ site.linkedin_username }}</a>
@@ -16,7 +16,7 @@ tags: resume
 <i class="fa fa-github"></i> <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
 |
 <i class="fa fa-twitter"></i> <a href="https://twitter.com/{{ site.twitter_username }}">{{ site.twitter_username }}</a>
-</div> -->
+</div>
 
 ## Projects
 

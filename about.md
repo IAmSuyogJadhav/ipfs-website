@@ -2,7 +2,7 @@
 layout: about
 title: About Me
 permalink: /about/
-tags: about
+#tags: about
 flicker: true
 headshot: /images/headshot.jpg
 ---

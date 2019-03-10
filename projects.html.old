@@ -1,30 +1,28 @@
 ---
 layout: default
 title: Projects & Open-Source
-tags: projects
+#tags: projects
 permalink: /projects/
 js:
+- js/gh_projects.js
 - js/util_buttons.js
 ---
-<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
 {% for js in page.js %}
   <script type="text/javascript">
   {% include {{ js }} %}
   </script>
-{% endfor %} -->
-
-<!-- <link rel="stylesheet" href="http://github-profile.com/dist/gh-profile-card.min.css" />
-<script type="text/javascript" src="http://github-profile.com/dist/gh-profile-card.min.js"></script> -->
+{% endfor %}
 
 <!-- Github Button -->
-<!-- <div class="container">
+<div class="container">
   <div class="row">
       <div class="col-lg-12 text-center">
-          <h2 class="section-heading">GitHub Activity</h2>
+          <h2 class="section-heading">GitHub Repositories</h2>
           <h3 class="section-subheading text-muted"><iframe src="https://ghbtns.com/github-btn.html?user=IAmSuyogJadhav&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="285px" height="34px"></iframe></h3>
       </div>
   </div>
-  <hr class="featurette-divider"> -->
+  <hr class="featurette-divider">
 
       <!-- <div class="featurette">
           <img class="featurette-image img-circle pull-right" src="./images/portfolio/system-design.png">
@@ -35,31 +33,25 @@ js:
       </div>
 
       <hr class="featurette-divider"> -->
-<!-- </div> -->
+</div>
+<!--  -->
 
-<!-- <div id="github-card"
-     data-username="IAmSuyogJadhav"
-     data-max-repos="300"
-     data-sort-by="updateTime"
-     data-header-text="Recent repositories">
-</div> -->
+<!-- Repos -->
+<div id="display-projects">test</div>
+<!--  -->
 
-<!-- Prepare a container for your calendar. -->
-<script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
-</script>
-
-<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-<link
-  rel="stylesheet"
-  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
-/>
-
-<!-- Prepare a container for your calendar. -->
-<div class="calendar">
-    <!-- Loading stuff -->
-    Loading the data just for you.
+<!-- Go to Top button -->
+<div class="circle-button">
+      <div class="top-circle" data-sr-id="80" style="; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; ">
+        <img src="{{ site.url }}/images/logos/top.png">
+  </div>
 </div>
 
-<script>
-    new GitHubCalendar(".calendar", "IAmSuyogJadhav");
+<!--  -->
+
+<script src="https://cdn.jsdelivr.net/emojione/3.0.3/lib/js/emojione.min.js"></script>
+<script type="text/javascript">
+  $(function() {
+    $("#display-projects").getRepos("iamsuyogjadhav"); /* Add your github username. */
+  });
 </script>

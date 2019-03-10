@@ -1,8 +1,64 @@
 ---
-layout: default
 tags: home
+layout: about
+#tags: about
+flicker: true
+headshot: /images/headshot.jpg
 ---
-<!-- {% assign posts_count = (paginator.posts | size) %}
+{% assign posts_count = (paginator.posts | size) %}
+
+<center>
+  <h1>Hi, I am Suyog Jadhav.</h1>
+  I am a machine learning developer from Pune, India. My research interests include applications of AI
+  in the field of healthcare, computer vision and robotics. I am currently an electronics sophomore at IIT (ISM), Dhanbad and aspire to be a researcher in the coming future.
+  If you have something great on your mind and want to collaborate, feel free to ping me on any of the following social networks.
+
+<h3>
+{% if site.email %}
+  <a href="mailto:{{ site.email }}"><i class="fa fa-envelope"></i></a>
+{% endif %}
+{% if site.github_username %}
+  <a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github"></i></a>
+{% endif %}
+{% if site.linkedin_username %}
+  <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><i class="fa fa-linkedin"></i></a>
+{% endif %}
+{% if site.twitter_username %}
+  <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter"></i></a>
+{% endif %}
+</h3>
+<hr />
+<h2>Navigation</h2>
+<h2>
+.
+{% for page in site.pages %}
+{% if page.tags contains "about" %}
+<a href="{{page.url}}">{{page.title}}</a>
+.
+{% endif %}
+{% if page.tags contains "portfolio" %}
+<a href="{{page.url}}">{{page.title}}</a>
+.
+{% endif %}
+{% if page.tags contains "projects" %}
+<a href="{{page.url}}">{{page.title}}</a>
+.
+{% endif %}
+{% if page.tags contains "resume" %}
+<a href="{{page.url}}">{{page.title}}</a>
+.
+{% endif %}
+{% if page.tags contains "contact" %}
+<a href="{{page.url}}">{{page.title}}</a>
+.
+{% endif %}
+{% endfor %}
+</h2>
+
+</center>
+
+<br />
+<hr />
 
 <div class="home">
   {% if posts_count > 0 %}
@@ -10,7 +66,7 @@ tags: home
       {% for post in paginator.posts %}
         <div class="post py3">
           <p class="post-meta">{{ post.date | date: site.date_format }}</p>
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h2 post-title">{{ post.title }}</h3></a>
           <p class="post-summary">
             {% if post.summary %}
               {{ post.summary }}
@@ -25,8 +81,7 @@ tags: home
     {% include pagination.html %}
   {% else %}
     <h1 class='center'>{{ site.text.index.coming_soon }}</h1>
-  {% endif %} -->
+  {% endif %}
 
-  {% include resume.html %}
 
 <!-- </div> -->

@@ -1,0 +1,108 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+<style>
+.home .contact-overlay .contact-a:nth-child(6n+1), .icon-and-text:nth-child(2n+1), footer .desktop-footer .footer-each:nth-child(6n+1) {
+    clear: left;
+}
+footer .desktop-footer .footer-each {
+    float: left;
+    display: block;
+    /* margin-right: 4%; */
+    /* width: 14.70196%; */
+}
+
+footer .desktop-footer .footer-each:first-child {
+    /* margin-left: 4%; */
+}
+
+footer .footer-each a {
+  text-decoration: none;
+  background-image: none
+  /* color: #000; */
+  /* font-weight: 300; */
+  word-wrap: normal;
+}
+
+footer .footer-each a:active, footer .footer-each a:hover {
+    outline-width: 0;
+}
+
+.founder-each h2, .group-pic, .header-title, .home .contact-overlay .contact-a, .section h1, .section h2, .section h3, .section p, .team small, .title-div, body .home .contact-overlay .contact-a-mob, footer .desktop-footer .footer-each, footer .mobile-footer, footer .mobile-footer .footer-each, nav li {
+    text-align: center;
+}
+
+.contact-a, .contact-a span, .contact-a-mob span, .footer-each span, footer, sub, sup {
+    position: relative;
+}
+
+.contact-a span:before, .contact-a-mob span:before, .footer-each span:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid #000;
+    transition: .4s;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.contact-a a:hover span:before, .contact-a-mob a:hover span:before, .footer-each a:hover span:before {
+    content: '';
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+}
+
+</style>
+{% if site.enable_anchorjs %}<!-- AnchorJS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.0.0/anchor.min.js"></script>
+<script>
+    anchors.options.visible = 'always';
+    anchors.add('article h2, article h3, article h5, article h5, article h6');
+</script>
+{% endif %}
+
+
+{% include head.html %}
+<body class="site{% if site.animated %} animated fade-in-down{% endif %}">
+  {% if site.google_tag_manager %}
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','{{ site.google_tag_manager }}');</script>
+  {% endif %}
+	{% if site.facebook_comments %}
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId={{ site.facebook_appid }}";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+	{% endif %}
+  {% include header.html %}
+  <div class="site-wrap">
+
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+{% if page.flicker %}
+<script type="text/javascript">
+  {% include js/flicker.js %}
+</script>
+{% endif %}

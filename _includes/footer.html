@@ -25,10 +25,6 @@
 					<a href="{{page.url}}">{{page.title}}</a>
 					.
 	{% endif %}
-	{% if page.tags contains "contact" %}
-					<a href="{{page.url}}">{{page.title}}</a>
-					.
-	{% endif %}
 	{% if page.tags contains "portfolio" %}
 					<a href="{{page.url}}">{{page.title}}</a>
 					.
@@ -38,6 +34,10 @@
 					.
 	{% endif %}
 	{% if page.tags contains "resume" %}
+					<a href="{{page.url}}">{{page.title}}</a>
+					.
+	{% endif %}
+	{% if page.tags contains "contact" %}
 					<a href="{{page.url}}">{{page.title}}</a>
 					.
 	{% endif %}
