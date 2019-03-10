@@ -1,6 +1,6 @@
 ---
 layout: default_alter
-tags: home
+#tags: home
 # headshot: /images/headshot.jpg
 ---
 {% assign posts_count = (paginator.portfolio | size) %}
