@@ -35,7 +35,8 @@ js:
       {% if post.progress %}
         <span class="progress">
           <span class="under-construction"></span>
-          <span class="progress-bar" style="width: {{ post.progress }}%"></span>
+          <progress value="{{ post.progress }}" max="100">{{ post.progress }}%</progress>
+          <!-- <span class="progress-bar" style="width: {{ post.progress }}%"></span> -->
         </span>
       {% endif %}
       <img class="thumb" src="/images/portfolio/{{ post.thumb }}" />

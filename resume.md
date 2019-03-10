@@ -1,24 +1,25 @@
 ---
 layout: cv
-title: Resumé
-tags: resume
+title: Resume
 permalink: /resume/
+tags: resume
+#flicker: true
+#headshot: /images/headshot.jpg
 ---
 
-<!-- <iframe width="100%" height="1080" frameBorder="0" marginwidth="0" marginheight="0" scrolling="No" hspace="0" vspace="0" src="https://docs.google.com/document/d/e/2PACX-1vQCPcv0T8h7BQ-Y2J9Y5vDBh5YQ_6mFpYSS-Wp--kmm5GhRoyx7ogDoyUIHFw8XKDkiJFU5PBZ-Nsl0/pub?embedded=true"></iframe> -->
-
 # Suyog Jadhav
-
-<div id="webaddress">
-<a href="mailto:suyog.17je002775@ece.ism.ac.in">suyog.17je002775@ece.ism.ac.in</a>
+<!-- <div id="webaddress">
+<i class="fa fa-envelope"></i> <a href="mailto:suyog.17je002775@ece.ism.ac.in">mail</a>
+|
+<i class="fa fa-linkedin"></i> <a href="https://linkedin.com/{{ site.linkedin_username }}">{{ site.linkedin_username }}</a>
 |
 <i class="fa fa-github"></i> <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
 |
 <i class="fa fa-twitter"></i> <a href="https://twitter.com/{{ site.twitter_username }}">{{ site.twitter_username }}</a>
-</div>
-
+</div> -->
 
 ## Projects
+
 `Dec 2018`
 __T. A. L. K. (The Aid for Language Kinetics)__ Currently working on this research project under the supervision of [Dr. J. Thangaraj](https://www.researchgate.net/profile/Jaisingh_Thangaraj). We are trying to design custom recurrent neural networks to use for detecting the whole American sign language (including the gestures) in a more practical and scalable way, using small and lightweight hardware sensors mounted on the arms of the user, instead of bulky cameras. Can be thought of as text-to-speech, but for sign language. Ongoing
 
@@ -28,7 +29,7 @@ __[Brainy](https://github.com/IAmSuyogJadhav/Brainy/)__ Along with 2 fellow memb
 `Oct 2018`
 __[WalkSafe](https://github.com/IAmSuyogJadhav/WalkSafe)__ Along with Udbhav and Aniket (fellow members of the team), designed an application that alerts unaware pedestrians and those with hearing disabilities if a car is approaching them. We synthesized the dataset by randomly superposing car horn snippets on background noise. Trained an LSTM model and got ~85% accuracy on the validation set.
 
-`Sept 2018`
+`Sep 2018`
 __DriveSmart (A startup funded by CIIE, IIT Dhanbad)__ Developed a smart system for cars that alerts the driver with visual cues and audio alerts when the driver gets distracted from the road or is drowsy. Used OpenCV, and dlib to create a multithreaded real-time object detector that could achieve object detection speeds of more than 60 FPS. Further, designed and trained a head pose estimation model in TensorFlow. Only the multithreaded object detector is open-sourced ([here](https://github.com/IAmSuyogJadhav/Lightning-Fast-Object-Detector)) due to NDA.
 
 `Jul 2018`
@@ -38,18 +39,20 @@ The complete list of projects can be found on [my Github profile](https://github
 
 ## Positions Held
 
-`Dec 2018`
-__Python Developer Intern, DataProrrisi Inc__ Developed the backend in Flask for DataProrrisi, a startup focused on revolutionizing the loan acquisition process using machine learning, based in California. Did this internship for approx. 2 months, till Jan. 2019.
+`Dec '18 - Jan '19`
+__Python Developer Intern, DataProrrisi Inc__ Developed the backend in Flask for DataProrrisi, a startup focused on revolutionizing the loan acquisition process using machine learning, based in California.
 
-`Dec 2017`
+`Dec '17 - Present`
 __AI Team Member, Cyber Labs__ A core member of the AI team of Cyber Labs, the official cyber society of IIT (ISM), Dhanbad. Cyber Labs is the initiative of IIT (ISM) students on the footsteps of MIT Media Labs, MIT. Our team focuses on working on various projects that use ML, DL or in general, any field of AI.
 
 ## Certifications
 
 __Advanced Machine Learning Specialization__
 _by HSE - National Research University on Coursera_
-- [Introduction to Deep Learning (with Honors)](https://www.coursera.org/account/accomplishments/verify/32SDG3EQFHNQ)
-- [How to Win a Data Science Competition: Learn from Top Kagglers (with Honors)](https://www.coursera.org/account/accomplishments/verify/897TKTQY9QCH)
+
+  1. (1) [Introduction to Deep Learning](https://www.coursera.org/account/accomplishments/verify/32SDG3EQFHNQ)
+
+  2. (2) [How to Win a Data Science Competition: Learn from Top Kagglers](https://www.coursera.org/account/accomplishments/verify/897TKTQY9QCH)
 
 __[Deep Learning Specialization (5/5 Courses)](https://www.coursera.org/account/accomplishments/specialization/certificate/LUB5A3JNJKHC)__
 _by deeplearning.ai on Coursera_
@@ -68,6 +71,7 @@ Keras | TensorFlow | OpenCV | dlib | Git | Linux | Scipy stack | Pandas | Matplo
 ### Development
 Machine Learning | Deep Learning | 2D and 3D Convolutional Neural Networks | Recurrent Neural Networks | Generative Networks | Fine-tuning pre-trained models | Computer Vision | Competitive Data Science | Audio Processing | Image/Video Processing | API & Backend Development
 
+---
 ## Recent Achievements
 
 `Jan 2019`
@@ -76,5 +80,3 @@ Team Members: Udbhav Bamba, Gk Tejus
 
 `Oct 2018`
 __Recipient: PyTorch scholarship Udacity - Facebook__ Got selected for the pyTorch scholarship challenge by Facebook AI and Udacity, to pursue an in-depth course on pyTorch by Facebook AI on Udacity.
-
-Last updated: {{ page.last_modified_at }}
