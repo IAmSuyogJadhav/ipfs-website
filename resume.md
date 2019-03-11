@@ -21,7 +21,7 @@ tags: resume
 ## Projects
 
 `Dec 2018`
-__T. A. L. K. (The Aid for Language Kinetics)__ Currently working on this research project under the supervision of [Dr. J. Thangaraj](https://www.researchgate.net/profile/Jaisingh_Thangaraj). We are trying to design custom recurrent neural networks to use for detecting the whole American sign language (including the gestures) in a more practical and scalable way, using small and lightweight hardware sensors mounted on the arms of the user, instead of bulky cameras. Can be thought of as text-to-speech, but for sign language. Ongoing
+__T. A. L. K. (The Aid for Language Kinetics)__ Currently working on this research project under the supervision of [Dr. Jaisingh T.](https://www.researchgate.net/profile/Jaisingh_Thangaraj). We are trying to design custom recurrent neural networks to use for detecting the whole American sign language (including the gestures) in a more practical and scalable way, using small and lightweight hardware sensors mounted on the arms of the user, instead of bulky cameras. Can be thought of as text-to-speech, but for sign language. Ongoing
 
 `Jan 2019`
 __[Brainy](https://github.com/IAmSuyogJadhav/Brainy/)__ Along with 2 fellow members of the team, designed a web portal that can be used by doctors to get the brain MRI scans analyzed simply by uploading the scans using their login ID. We modified the U-Net model and trained it to segment out the brain tumors from the MRI scans of the brain. The project got 4th rank out of a total of 22 finalist teams in the PanIIT AI Hackathon 2019 and got featured on paperswithcode.com.
