@@ -11,7 +11,7 @@ js:
 {% for post in site.portfolio %}
   <li>
     <div class="project"
-         style='background-image: url(/images/portfolio/{{ post.thumb }})'>
+         style='background-image: url(/images/thumbs/{{ post.thumb }})'>
       <a class="cover" href="{{ post.url }}">
         <div class="project-details">
           <span>
@@ -39,7 +39,7 @@ js:
           <!-- <span class="progress-bar" style="width: {{ post.progress }}%"></span> -->
         </span>
       {% endif %}
-      <img class="thumb" src="/images/portfolio/{{ post.thumb }}" />
+      <img class="thumb" src="/images/thumbs/{{ post.thumb }}" />
       <div class="aspect-two-one"></div>
     </div>
   </li>
