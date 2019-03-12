@@ -120,3 +120,6 @@ exclude: [vendor]
 collections:
   portfolio:
     output: true
+
+include:
+  _pages
