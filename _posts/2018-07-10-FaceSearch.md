@@ -10,7 +10,7 @@ thumb: "FaceSearch.png"
 subtitle: "Know who's that unknown person in the image!"
 worktype: "OpenCV"
 summary: "FaceSearch: Searches for faces in a given image using OpenCV and the Google Reverse Image Search engine."
-progress: 100
+#progress: 100
 ---
 
 <center><pre>█▀▀ █▀▀█ █▀▀ █▀▀   █▀▀ █▀▀ █▀▀█ █▀▀█ █▀▀ █  █
