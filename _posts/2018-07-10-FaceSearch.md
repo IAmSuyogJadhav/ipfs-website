@@ -13,10 +13,7 @@ summary: "FaceSearch: Searches for faces in a given image using OpenCV and the G
 #progress: 100
 ---
 
-<center><pre>█▀▀ █▀▀█ █▀▀ █▀▀   █▀▀ █▀▀ █▀▀█ █▀▀█ █▀▀ █  █
-█▀▀ █▄▄█ █   █▀▀   ▀▀█ █▀▀ █▄▄█ █▄▄▀ █   █▀▀█
-▀   ▀  ▀ ▀▀▀ ▀▀▀   ▀▀▀ ▀▀▀ ▀  ▀ ▀ ▀▀ ▀▀▀ ▀  ▀</pre></center>  
-
+## Abstract
 FaceSearch: Searches for faces in a given image using OpenCV and the Google Reverse Image Search engine.
 
 ## Installation
