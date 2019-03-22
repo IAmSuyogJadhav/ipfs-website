@@ -7,6 +7,9 @@ tags: resume
 #headshot: /images/headshot.jpg
 ---
 
+#### This is my 'complete' resume. A shorter version can be found [here](https://docs.google.com/document/d/1mSG-1C_UeEcyrBacRP99CS78Tww_wNnWUAkID5_wQw0/export?format=pdf).
+---
+
 # Suyog Jadhav
 <div id="webaddress">
 <i class="fa fa-envelope"></i> <a href="mailto:suyog.17je002775@ece.ism.ac.in">mail</a>
@@ -30,7 +33,7 @@ __[Brainy](https://github.com/IAmSuyogJadhav/Brainy/)__ Along with 2 fellow memb
 __[WalkSafe](https://github.com/IAmSuyogJadhav/WalkSafe)__ Along with Udbhav and Aniket (fellow members of the team), designed an application that alerts unaware pedestrians and those with hearing disabilities if a car is approaching them. We synthesized the dataset by randomly superposing car horn snippets on background noise. Trained an LSTM model and got ~85% accuracy on the validation set.
 
 `Sep 2018`
-__DriveSmart (A startup funded by CIIE, IIT Dhanbad)__ Developed a smart system for cars that alerts the driver with visual cues and audio alerts when the driver gets distracted from the road or is drowsy. Used OpenCV, and dlib to create a multithreaded real-time object detector that could achieve object detection speeds of more than 60 FPS. Further, designed and trained a head pose estimation model in TensorFlow. Only the multithreaded object detector is open-sourced ([here](https://github.com/IAmSuyogJadhav/Lightning-Fast-Object-Detector)) due to NDA.
+__DriveSmart (A startup funded by CIIE, IIT Dhanbad)__ Developed a smart system for cars that alerts the driver with visual cues and audio alerts when the driver gets distracted from the road or is drowsy. Used OpenCV, and dlib to create a multithreaded real-time object detector that could achieve object detection speeds of more than 60 FPS. Further, designed and trained a head pose estimation model in TensorFlow. Only the multithreaded object detector is open-sourced ([here](https://github.com/IAmSuyogJadhav/Lightning-Fast-Object-Detector)) due to NDA agreement.
 
 `Jul 2018`
 __[FaceSearch](https://www.github.com/IAmSuyogJadhav/FaceSearch)__ Created a command-line tool that takes an image, detects faces in it, lets the user select one and then tries to establish the identity of the person by performing Google reverse Image search on the face. Used OpenCV. Implemented in Python. The project got 25 stars on the GitHub repository in a short time after its release.
@@ -50,9 +53,9 @@ __AI Team Member, Cyber Labs__ A core member of the AI team of Cyber Labs, the o
 __Advanced Machine Learning Specialization__
 _by HSE - National Research University on Coursera_
 
-  1. (1) [Introduction to Deep Learning](https://www.coursera.org/account/accomplishments/verify/32SDG3EQFHNQ)
+  1. [Introduction to Deep Learning](https://www.coursera.org/account/accomplishments/verify/32SDG3EQFHNQ)
 
-  2. (2) [How to Win a Data Science Competition: Learn from Top Kagglers](https://www.coursera.org/account/accomplishments/verify/897TKTQY9QCH)
+  2. [How to Win a Data Science Competition: Learn from Top Kagglers](https://www.coursera.org/account/accomplishments/verify/897TKTQY9QCH)
 
 __[Deep Learning Specialization (5/5 Courses)](https://www.coursera.org/account/accomplishments/specialization/certificate/LUB5A3JNJKHC)__
 _by deeplearning.ai on Coursera_
@@ -69,7 +72,7 @@ Python 3 | Python 2 | C++ | C | Matlab | GNU Octave | Javascript | CSS
 Keras | TensorFlow | OpenCV | dlib | Git | Linux | Scipy stack | Pandas | Matplotlib | Scikit-learn | Regex | XGBoost | PyTorch | Flask
 
 ### Development
-Machine Learning | Deep Learning | 2D and 3D Convolutional Neural Networks | Recurrent Neural Networks | Generative Networks | Fine-tuning pre-trained models | Computer Vision | Competitive Data Science | Audio Processing | Image/Video Processing | API & Backend Development
+Machine Learning | Deep Learning | 2D and 3D Convolutional Neural Networks | Recurrent Neural Networks | Generative Networks | Transfer Learning | Computer Vision | Competitive Data Science | Audio Processing | Image/Video Processing | API & Backend Development
 
 ---
 ## Recent Achievements
