@@ -4,12 +4,12 @@ hero-bg-color: "#000"
 title: "Using ANTs package on Google Colaboratory"
 date: 2019-03-28
 category: Misc
-github: Using ANTs package on Google Colaboratory
+github: Brainy
 thumb: "ANTs.png"
 
 # subtitle: ""
 # worktype: ""
-# summary: ""
+summary: "I couldn't get ANTs to install on the Colab environment. There are not many helpful articles on the internet, and the existing pre-built binaries were too outdated. After some iterations, I was able to build ANTs from the source on Colab itself."
 # progress: 100
 ---
 
