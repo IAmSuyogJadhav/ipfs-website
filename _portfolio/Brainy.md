@@ -139,7 +139,7 @@ Though the model currently is far from state-of-the-art accuracy, rest of the th
    >
    > `Tensor Tensor("activation_143/Sigmoid:0", shape=(?, 1, 120, 120, 120), dtype=float32) is not an element of this graph.`
    >
-   > We are investigating this and currently there's no fix for this.
+   > I am redesigning the model and till a basic model is trained, currently there's no fix for this.
 
 # Team
 
