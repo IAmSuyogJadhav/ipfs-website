@@ -23,6 +23,43 @@ github: Brainy
 
 <progress value="{{ page.progress }}" max="100"></progress>
 {{ page.progress }}% -->
+# Preview
+<div>
+<img src="assets/analyze.png" align="centre" width="500px" style="margin: 10 10 10 10;"><br />
+	<p align="center"><b>A screenshot of the project interface</b></p>
+</div>
+
+# Installation Instructions
+
+1. Clone this repository
+
+   ```bash
+   git clone https://github.com/IAmSuyogJadhav/Brainy.git
+   ```
+
+   or [Download](https://github.com/IAmSuyogJadhav/Brainy/archive/master.zip) and then extract its contents.
+
+2. Download the model from [here](https://drive.google.com/open?id=1U6o7FfR7Fue6ukIg_ciUoN0rjZs6QfrW) and put the file inside `app/static/models/` folder. Do not change the name (It should be `Model_1.h5`).
+
+3. From the root folder of te repository, run:
+```bash
+pip3 install -r requirements.txt
+```
+to install ll the dependencies. Note that this project is based on python3.
+
+4. Start the app using following command, when in the main folder:
+
+   ```bash
+   flask run
+   ```
+
+   It may take a while.
+
+5. Now open your browser and navigate to http://localhost:5000 and follow the instructions. It is recommended to have a Nvidia GPU, since it can speed up the prediction task manifolds.
+
+## Sample MRI scans
+
+There are 2 sample cases from the BraTS2018 dataset insides the `samples/` directory. You can use them to quickly test the app. These cases also contain a file (named in the format `xxx_seg.nii.gz`) that shows the ground truth segmentation map for that case.
 
 # Project Overview
 
@@ -56,14 +93,11 @@ The doctors said that if the cases are detected early, then 90 per cent of the t
 - The condition is much more worse in the rural areas where the count of Oncologists is much less.
 
 ## Proposed Solution
-
-> Jump directly to the training notebook by clicking ***[here](#notebook)***
-
 ​	In order to solve this problem, we propose Brainy, our Brain MRI segmentation tool. Not only would Brainy automatise the entire process of diagnosis for tumours , but it would also help in solving out those cases which are generally missed by the human eye.
 
 #### About the Dataset
 
-​	The data that we’ve used is the BRATS dataset. This dataset contains the segmented images of the brain tissues. After the image has been segmented, there are 5 classes namely Necrosis, Edema , Non-Enhancing tumour , Enhancing  tumour and the background. There are about 220 images in the training dataset.
+​	The data that we’ve used is the BRATS dataset. This dataset contains the segmented images of the brain tissues. After the image has been segmented, there are 3 classes namely Necrotic and Non-Enhancing tumour (NCR/NET), Peritumoral Edema (ED) and GD-Enhancing  tumour (ET). There are about 220 images in the training dataset.
 
 #### The Model
 
@@ -91,55 +125,9 @@ These skip connections intend to provide local information to the global informa
 <div>
 <img src="/images/brainy/metric.png" align="right" style="margin:10px 10px 10px 10px;" width='200'><br />
 <p>
-        To quantify the performance of our image segmentation, <b>Dice Score</b> is used. The algorithm is validated by calculating the Dice score, which is a measure of how similar the objects are. So it is the size of the overlap of the two segmentations divided by the total size of the two objects. That is, the score for a particular class c is the size of the overlap between the predicted region and its true counterpart. We were able to achieve best coefficient of dice loss score <b>0.43</b> (higher the better).
+        To quantify the performance of our image segmentation, <b>Dice Score</b> is used. The algorithm is validated by calculating the Dice score, which is a measure of how similar the objects are. So it is the size of the overlap of the two segmentations divided by the total size of the two objects. That is, the score for a particular class c is the size of the overlap between the predicted region and its true counterpart. We were able to achieve best coefficient of dice loss score <b>0.61</b> (higher the better).
 </p>
 </div>
-
-# Preview
-<div>
-<img src="/images/brainy/analyze.png" align="centre" width="500px" style="margin: 10px 10px 10px 10px;"><br />
-	<p align="center"><b>A screenshot of the project interface</b></p>
-</div>
-
-# Installation Instructions
-
-> **Please note that the project is NOT yet completely ready to launch, and will probably fail to run on your PC.**
-
-Though the model currently is far from state-of-the-art accuracy, rest of the things should work fine. You can try running the project on your local environment by following the steps below:
-
-1. Clone this repository
-
-   ```bash
-   git clone https://github.com/IAmSuyogJadhav/Brainy.git
-   ```
-
-   or [Download](https://github.com/IAmSuyogJadhav/Brainy/archive/master.zip) and then extract its contents.
-
-2. Change to the root folder of repository and run following commands in the terminal:
-
-   ```bash
-   sudo apt-get install python3 -y
-   sudo apt-get install python3-pip -y
-   pip3 install -r requirements.txt
-   ```
-
-3. Now start the flask server using following command:
-
-   ```bash
-   flask run
-   ```
-
-   It may take a while.
-
-4. Now open your browser and navigate to http://localhost:5000. Click on **New User?** and register yourself (Don't worry, there's no cloud based database. Your credentials are just being stored locally. Feel free to use fake data.).
-
-5. Upload a `.mha` image using the uploader GUI (you won't need internet for this), choose it from the dropdown menu to analyze the results. This last part is currently under work.
-
-   > You might get an error
-   >
-   > `Tensor Tensor("activation_143/Sigmoid:0", shape=(?, 1, 120, 120, 120), dtype=float32) is not an element of this graph.`
-   >
-   > I am redesigning the model and till a basic model is trained, currently there's no fix for this.
 
 # Team
 
