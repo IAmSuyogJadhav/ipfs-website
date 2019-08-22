@@ -68,7 +68,20 @@ footer .footer-each a:active, footer .footer-each a:hover {
 
 {% include head.html %}
 <body class="site{% if site.animated %} animated fade-in-down{% endif %}">
-  {% if site.google_tag_manager %}
+  
+
+  {% if site.google_ads %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7981282590509833",
+    enable_page_level_ads: true
+  });
+</script>
+{% endif %}
+
+
+{% if site.google_tag_manager %}
   <noscript><iframe src="//www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
