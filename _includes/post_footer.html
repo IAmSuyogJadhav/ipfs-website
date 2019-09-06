@@ -1,7 +1,20 @@
 <div class="py2 post-footer">
   <img src="https://avatars1.githubusercontent.com/u/30121918" alt="Me!" class="avatar" />
   <p>
-    Thanks for reading, and please leave some feedback if you have the time.
+    AI in Healthcare & Biomedical Imaging | Computer Vision | Data Science
+    <br />
+    {% if site.email %}
+      <a href="mailto:{{ site.email }}"><i class="fa fa-envelope"></i></a>
+    {% endif %}
+    {% if site.github_username %}
+      <a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github"></i></a>
+    {% endif %}
+    {% if site.linkedin_username %}
+      <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><i class="fa fa-linkedin"></i></a>
+    {% endif %}
+    {% if site.twitter_username %}
+      <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter"></i></a>
+    {% endif %}
   </p>
   <p>
     <!-- Place this tag where you want the button to render. -->
