@@ -1,7 +1,7 @@
 ---
 layout: post
 hero-bg-color: "#000"
-title:  "SSH to GCP instance as root user"
+title:  "SSH to GCP instance as the Root User"
 date: 2019-09-07
 category: Misc
 #github: FaceSearch
@@ -13,11 +13,13 @@ summary: "Google cloud SDK by default logs you in as a different user when conne
 #progress: 100
 ---
 
-I recently created my own Google Cloud Platform account and had to setup the whole thing by myself. After going through multiple tutorials online, I finally managed to SSH as the root user to my instance from my local system, even though my ISP blocks outbound connections from port 22. The process was slightly hectic and there wasn't a single tutorial covering the whole of it on the internt, so I thought I would share the steps myself. So, here you go:
+&nbsp;&nbsp;&nbsp;&nbsp;I recently created my own Google Cloud Platform account and had to setup the whole thing by myself. After going through multiple tutorials online, I finally managed to SSH as the root user to my instance from my local system, even though my ISP blocks outbound connections from port 22. The process was slightly hectic and there wasn't a single tutorial covering the whole of it on the internet, so I thought I would share the complete list of steps myself.
 
-# Logging in as the root user
+So, here you go:
 
-## On Local System
+## Logging in as the root user
+
+### On Local System
 
 Perform the following steps on your local machine.
 
@@ -48,19 +50,19 @@ add your key to the agent:
 ```bash
 $ ssh-add ~/.ssh/id_rsa
 ```
- 
-3. Copy the contents of `~/.ssh/id_rsa.pub` to your clipboard. The file location can vary if you chose a different path for your key earlier. 
+
+3. Copy the contents of `~/.ssh/id_rsa.pub` to your clipboard. The file location can vary if you chose a different path for your key earlier.
 
 Hint: It starts with `ssh-rsa` and ends with `something@something`.
 
-## On your GCP instance
+### On your GCP instance
 
 Perform the following steps on your GCP instance.
 
 1. Connect to your instance by choosing _Open in browser window on custom port_ option.
 
-![GCP Screenshot](https://tlgur.com/d/gvabz0pG)
- 
+![Open GCP instance in a browser window](https://tlgur.com/d/gvabz0pG)
+
 2. Open `~/.ssh/authorized_keys` file for editing:
 ```bash
 $ sudo nano ~/.ssh/authorized_keys
@@ -88,30 +90,30 @@ Save the file and exit editor.
 sudo service ssh reload
 ```
 
-## Connect to GCP from you local machine.
+### Connect to GCP from you local machine.
 
 If you followed all the steps correctly, give yourself a pat on the back. You did it!
 
 Now you should be able to ssh to your instance as root user by doing:
 ```bash
-$ ssh <your root username>@<your instance's public ip>
+$ ssh <your root username>@<public IP of your instance>
 ```
 
 
-# Bonus: If outbound port 22 is blocked on your system
+## Bonus: If outbound port 22 is blocked on your network
 
-If your ISP blocks the default SSH port (22), you can use SSH over the HTTPS port (443), which is generally open. Follow the steps given below.
+If your ISP has blocked the default SSH port (22), you can use SSH over the HTTPS port (443), which is generally open. Follow the steps given below.
 
-## On your GCP instance
+### On your GCP instance
 1. Connect to your instance by choosing _Open in browser window on custom port_ option.
 
-![GCP Screenshot](https://tlgur.com/d/gvabz0pG)
+![Open GCP instance in a browser window](https://tlgur.com/d/gvabz0pG)
 
 2. Open `/etc/ssh/sshd_config` file for editing:
 ```bash
 $ sudo nano /etc/ssh/sshd_config
 ```
-3. Uncomment the line 
+3. Uncomment the line
 ```bash
 #Port 22
 ```
@@ -124,19 +126,19 @@ Port 443
 ```bash
 sudo service ssh reload
 ```
-6. Click on 3 dots next to your instance name and then select _View network details_ option.
+6. Click on the 3 dots next to your instance name and then select _View network details_ option.
 
-![GCP Screenshot](https://tlgur.com/d/g09Zyw34)
+![View Network Details of a GCP instance](https://tlgur.com/d/g09Zyw34)
 
 Now click on _default-allow-ssh_ in the list.
 
-![GCP Screenshot](https://tlgur.com/d/8BQOw5d4)
+![selct default_allow_ssh option from the list](https://tlgur.com/d/8BQOw5d4)
 
 Click on _Edit_ option.
 
-![GCP Screenshot](https://tlgur.com/d/4AQXmkv4)
+![Click on Edit](https://tlgur.com/d/4AQXmkv4)
 
-Look for _Protocols and ports_ heading and change it from 
+Look for _Protocols and ports_ heading and change it from
 
 ```
 tcp: 22
@@ -147,10 +149,10 @@ tcp:22,443
 ```
 Save the rule.
 
-# Connect from you local machine.
+### Connect from you local machine
 Now you should be able to ssh to your instance as root user by doing:
 ```bash
-$ ssh -p 443 <your root username>@<your instance's public ip>
+$ ssh -p 443 <your root username>@<public ip of your instance >
 ```
 
 That's it. If you face any problems following the tutorial, comment down below and I might be able to help out.
