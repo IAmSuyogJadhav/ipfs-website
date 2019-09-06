@@ -13,5 +13,5 @@ Just my website. The theme is [thundergolfer/junior-theme](https://github.com/th
 * [Blog posts](https://suyogjadhav.com/)
 * [SpotLight](https://suyogjadhav.com/spotlight/)
 * [My resumé](https://suyogjadhav.com/resume/)
-* [A Summary of my open-source work](https://suyogjadhav.com/projects/)
+* [A Summary of my open-source work](https://suyogjadhav.com/open-source/)
 * [A basic about page](https://suyogjadhav.com/about/)
