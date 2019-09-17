@@ -7,10 +7,10 @@ tags: resume
 #headshot: /images/headshot.jpg
 ---
 
-#### This is my 'complete' resume. A shorter version can be found [here](https://docs.google.com/document/d/1mSG-1C_UeEcyrBacRP99CS78Tww_wNnWUAkID5_wQw0/export?format=pdf).
+#### Fetched from the original Google Doc available [here](https://docs.google.com/document/d/1mSG-1C_UeEcyrBacRP99CS78Tww_wNnWUAkID5_wQw0/export?format=pdf).
 ---
 
-# Suyog Jadhav
+<!-- # Suyog Jadhav
 <div id="webaddress">
 <i class="fa fa-envelope"></i> <a href="mailto:suyog.17je002775@ece.ism.ac.in">mail</a>
 |
@@ -82,4 +82,12 @@ __3rd Runner Up @ PanIIT Mission AI: Solve For India__ Secured 4th rank in the f
 Team Members: Udbhav Bamba, Gk Tejus
 
 `Oct 2018`
-__Recipient: PyTorch scholarship Udacity - Facebook__ Got selected for the pyTorch scholarship challenge by Facebook AI and Udacity, to pursue an in-depth course on pyTorch by Facebook AI on Udacity.
+__Recipient: PyTorch scholarship Udacity - Facebook__ Got selected for the pyTorch scholarship challenge by Facebook AI and Udacity, to pursue an in-depth course on pyTorch by Facebook AI on Udacity. -->
+# Resume.
+<div class="content">
+<iframe id="ifrml" src="https://docs.google.com/document/d/e/2PACX-1vQCPcv0T8h7BQ-Y2J9Y5vDBh5YQ_6mFpYSS-Wp--kmm5GhRoyx7ogDoyUIHFw8XKDkiJFU5PBZ-Nsl0/pub?embedded=true" frameborder="0" scrolling="no" width='100%' height='2500'>
+ <!-- style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"> -->
+    Your browser doesn't support iframes
+</iframe>
+</div>
+<!-- <iframe src="https://docs.google.com/document/d/e/2PACX-1vQCPcv0T8h7BQ-Y2J9Y5vDBh5YQ_6mFpYSS-Wp--kmm5GhRoyx7ogDoyUIHFw8XKDkiJFU5PBZ-Nsl0/pub?embedded=true"></iframe> -->
