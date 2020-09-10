@@ -7,7 +7,7 @@ tags: resume
 #headshot: /images/headshot.jpg
 ---
 
-#### Fetched from the original Google Doc available [here](https://docs.google.com/document/d/1mSG-1C_UeEcyrBacRP99CS78Tww_wNnWUAkID5_wQw0/export?format=pdf).
+#### This is my complete, unabridged resume. You can find a shorter single page version [here](https://raw.githubusercontent.com/IAmSuyogJadhav/Resume/master/Resume.pdf).
 ---
 
 <!-- # Suyog Jadhav
@@ -85,7 +85,7 @@ Team Members: Udbhav Bamba, Gk Tejus
 __Recipient: PyTorch scholarship Udacity - Facebook__ Got selected for the pyTorch scholarship challenge by Facebook AI and Udacity, to pursue an in-depth course on pyTorch by Facebook AI on Udacity. -->
 # Resume.
 <div class="content">
-<iframe id="ifrml" src="https://docs.google.com/document/d/e/2PACX-1vQCPcv0T8h7BQ-Y2J9Y5vDBh5YQ_6mFpYSS-Wp--kmm5GhRoyx7ogDoyUIHFw8XKDkiJFU5PBZ-Nsl0/pub?embedded=true" frameborder="0" scrolling="no" width='100%' height='2500'>
+<iframe id="ifrml" src="https://docs.google.com/document/d/e/2PACX-1vQCPcv0T8h7BQ-Y2J9Y5vDBh5YQ_6mFpYSS-Wp--kmm5GhRoyx7ogDoyUIHFw8XKDkiJFU5PBZ-Nsl0/pub?embedded=true" frameborder="0" scrolling="no" width='100%' height='3200'>
  <!-- style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"> -->
     Your browser doesn't support iframes
 </iframe>
