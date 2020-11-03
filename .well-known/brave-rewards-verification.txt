@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: suyogjadhav.com
+Token: 2d7f4ee312b4a7eb40e6aef34cfd8dacfea57e3866054ad5ec80e6df30078953
